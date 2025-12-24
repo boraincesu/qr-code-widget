@@ -3,7 +3,7 @@ const QRCode = require("qrcode");
 const canvas = document.getElementById("qr-code");
 const progressBar = document.getElementById("progress-bar");
 const countdownEl = document.getElementById("countdown");
-const QR_URL = "https://infinia.com.tr/";
+const QR_URL = "https://google.com/";
 const REFRESH_INTERVAL = 60;
 
 let countdown = REFRESH_INTERVAL;
